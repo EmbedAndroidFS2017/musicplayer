@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ch.ffhs.fs17.esa.handson_musicplayer.StartActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnStartClicked"
+        android:text="Start"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="89dp"
+        tools:text="Start" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OnStopClicked"
+        android:text="Stop"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="245dp"
+        tools:text="Stop" />
+</tools:LinearLayout>
